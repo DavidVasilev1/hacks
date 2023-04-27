@@ -1,6 +1,7 @@
-from sqlalchemy import Column, Integer, String, Boolean
+from sqlalchemy import Column, Integer, String, Text
 from .. import db
-import random
+from sqlalchemy.exc import IntegrityError
+import json
 
 # place your model code here
 # you can use the code we showed in our lesson as an example
